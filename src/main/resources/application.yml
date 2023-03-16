@@ -1,0 +1,6 @@
+
+server:
+  port: 8055
+
+app:
+  firebase-configuration-file: firebase/fcmmsg-a6214-firebase-adminsdk.json
