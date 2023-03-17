@@ -13,4 +13,10 @@ public class FCMPush {
         model.addAttribute("something", "push use Token");
         return "pushToken";
     }
+
+    @GetMapping("/input")
+    String getInputPage(Model model) {
+
+        return "sample/validate";
+    }
 }

@@ -4,3 +4,8 @@ server:
 
 app:
   firebase-configuration-file: firebase/fcmmsg-a6214-firebase-adminsdk.json
+
+project:
+  properties:
+    firebase-create-scoped: "https://www.googleapis.com/auth/firebase.messaging"
+    firebase-topic: "diet_recode_notification"
