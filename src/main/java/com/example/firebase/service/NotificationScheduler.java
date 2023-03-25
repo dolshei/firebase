@@ -31,6 +31,7 @@ public class NotificationScheduler {
     String topic;
 
     private FirebaseMessaging instance;
+/*
 
     @PostConstruct
     public void firebaseSetting() throws IOException {
@@ -42,6 +43,7 @@ public class NotificationScheduler {
         FirebaseApp app = FirebaseApp.initializeApp(secondaryAppConfig);
         this.instance = FirebaseMessaging.getInstance(app);
     }
+*/
 
     @Scheduled(cron = "0 0 09 * * ?")
     public void pushMorningDietAlarm() throws FirebaseMessagingException {
